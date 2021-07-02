@@ -1,0 +1,10 @@
+# these folders and files are ignored 
+# as node_modules will be more size and takes more time to push into github
+# when other member needs the node_modules like express,colors etc..
+# he needs to do "npm install" => therefore all the required dependecies will be installed 
+# dependecies will be availbale in packages.json
+# and .env file will protect some content like API_KEY etc..
+# so these will be ignored
+
+node_modules/
+
